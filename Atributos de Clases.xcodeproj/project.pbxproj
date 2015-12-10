@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78EDF26A1C19EC8100837B98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EDF2691C19EC8100837B98 /* main.m */; };
+		78EDF2751C19F9D500837B98 /* NANStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EDF2741C19F9D500837B98 /* NANStarWarsCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		78EDF2661C19EC8100837B98 /* Atributos de Clases */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Atributos de Clases"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EDF2691C19EC8100837B98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78EDF2731C19F9D500837B98 /* NANStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NANStarWarsCharacter.h; path = "Atributos de Clases/NANStarWarsCharacter.h"; sourceTree = "<group>"; };
+		78EDF2741C19F9D500837B98 /* NANStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NANStarWarsCharacter.m; path = "Atributos de Clases/NANStarWarsCharacter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,20 @@
 		78EDF2681C19EC8100837B98 /* Atributos de Clases */ = {
 			isa = PBXGroup;
 			children = (
+				78EDF2761C19F9DF00837B98 /* Models */,
 				78EDF2691C19EC8100837B98 /* main.m */,
 			);
 			path = "Atributos de Clases";
+			sourceTree = "<group>";
+		};
+		78EDF2761C19F9DF00837B98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78EDF2731C19F9D500837B98 /* NANStarWarsCharacter.h */,
+				78EDF2741C19F9D500837B98 /* NANStarWarsCharacter.m */,
+			);
+			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78EDF2751C19F9D500837B98 /* NANStarWarsCharacter.m in Sources */,
 				78EDF26A1C19EC8100837B98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +252,7 @@
 				78EDF26F1C19EC8100837B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
