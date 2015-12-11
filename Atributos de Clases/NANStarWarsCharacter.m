@@ -62,5 +62,10 @@
     return [self initWithFirstName:nil lastName:nil alias:alias];
 }
 
+- (NSString *) description
+{
+    return [NSString stringWithFormat:@"<%@ : %@ %@ %@>",[self class],_firstName,_lastName,_alias];
+}
+
 
 @end

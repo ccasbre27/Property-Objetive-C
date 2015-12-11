@@ -47,6 +47,10 @@ int main(int argc, const char * argv[])
         
         NSLog(@"\nSoy %@ y soy un androide",[r2d2 alias]);
         
+        // desplegamos el mensaje en consola
+        NSLog(@"\n%@",anakin);
+
+        
     }
     return 0;
 }
